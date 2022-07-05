@@ -6,7 +6,7 @@ jobs:
     name: 🎉 Deploy to https://zahro.partnerku.online/
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code (proses pengambilan code terbaru dari branch)
+      - name: 🚚 Get latest code 
         uses: actions/checkout@v2
 
       - name: 🚫 Remove Meta Files & Folders
